@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="jeopardy.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Jeopardy!</h1>
+    <button id="start">Start!</button>
+  </header>
+
+  <div id="spin-container">
+    <i class="fa fa-spin fa-spinner" id="fa-spinner"></i>
+  </div>
+
+  <div id="table-cont">
+  <table id="jeopardy">
+    <thead class="tablehead" id="tablehead">
+      <!--<tr class="heading-row">
+        <th>h</th>
+        <th>h</th>
+        <th>h</th>
+        <th>h</th>
+        <th>h</th>
+        <th>h</th>
+      </tr>-->
+    </thead>
+    <tbody class="tablebody" id="tablebody">
+      <!--<tr class="row1">
+        <td id="r1-c1" class="tablecell r1-c1">?</td>
+        <td id="r1-c2" class="tablecell r1-c2">?</td>
+        <td id="r1-c3" class="tablecell r1-c3">?</td>
+        <td id="r1-c4" class="tablecell r1-c4">?</td>
+        <td id="r1-c5" class="tablecell r1-c5">?</td>
+        <td id="r1-c6" class="tablecell r1-c6">?</td>
+      </tr>
+      <tr class="row2">
+        <td id="r2-c1" class="tablecell r2-c1">?</td>
+        <td id="r2-c2" class="tablecell r2-c2">?</td>
+        <td id="r2-c3" class="tablecell r2-c3">?</td>
+        <td id="r2-c4" class="tablecell r2-c4">?</td>
+        <td id="r2-c5" class="tablecell r2-c5">?</td>
+        <td id="r2-c6" class="tablecell r2-c6">?</td>
+      </tr>
+      <tr class="row3">
+        <td id="r3-c1" class="tablecell r3-c1">?</td>
+        <td id="r3-c2" class="tablecell r3-c2">?</td>
+        <td id="r3-c3" class="tablecell r3-c3">?</td>
+        <td id="r3-c4" class="tablecell r3-c4">?</td>
+        <td id="r3-c5" class="tablecell r3-c5">?</td>
+        <td id="r3-c6" class="tablecell r3-c6">?</td>
+      </tr>
+      <tr class="row4">
+        <td id="r4-c1" class="tablecell r4-c1">?</td>
+        <td id="r4-c2" class="tablecell r4-c2">?</td>
+        <td id="r4-c3" class="tablecell r4-c3">?</td>
+        <td id="r4-c4" class="tablecell r4-c4">?</td>
+        <td id="r4-c5" class="tablecell r4-c5">?</td>
+        <td id="r4-c6" class="tablecell r4-c6">?</td>
+      </tr>
+      <tr class="row5">
+        <td id="r5-c1" class="tablecell r5-c1">?</td>
+        <td id="r5-c2" class="tablecell r5-c2">?</td>
+        <td id="r5-c3" class="tablecell r5-c3">?</td>
+        <td id="r5-c4" class="tablecell r5-c4">?</td>
+        <td id="r5-c5" class="tablecell r5-c5">?</td>
+        <td id="r5-c6" class="tablecell r5-c6">?</td>
+      </tr>-->
+    </tbody>
+  </table>
+</div>
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/lodash"></script>
+<script src="jeopardy.js"></script>
+
+</body>
+</html>
+
+<!-- click to restart text -->
+<!-- change colors for question / answer -->
+<!-- other ways to make it prettier? -->

@@ -1,0 +1,107 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+body{
+  padding:15px 0;
+  margin: 10px;
+  height: 100vh;
+}
+
+header{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+header h1{
+ font-size: 50px;
+ letter-spacing: 2px;
+ padding: 5px;
+ font-weight: 600;
+}
+header #start{
+font-size: 35px;
+letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#spin-container{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+#fa-spinner {
+  font-size: 24px;
+}
+
+.hide{
+  display:none;
+  visibility: hidden;
+}
+
+#table-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/ /*change this for view hieght*/ /*this is simply for positining the table*/
+}
+
+#jeopardy{
+  border-collapse: collapse;
+  /*width: 100%;*/
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  
+}
+
+#jeopardy #tablehead{
+ background-color:#115ff4 ;
+}
+
+#jeopardy #tablebody{
+  background-color:#115ff4 ;
+  text-size-adjust: none;
+}
+
+#jeopardy #tablebody td,#jeopardy #tablehead  td{
+  border: 1px solid black ;
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+  white-space: normal;
+  box-sizing: border-box;
+  width:100px;
+  max-width: 100px;
+  height:100px;
+  max-height: 100px;
+  text-size-adjust: none;
+}
+
+#jeopardy #tablehead tr td{
+  color: yellow;
+  font-size: 15px;
+}
+#jeopardy #tablebody tr td{
+  color: azure;
+  font-size: 12px;
+}
